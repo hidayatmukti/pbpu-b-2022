@@ -1,0 +1,12 @@
+@startuml
+
+    class  Ecommerce {
+      +support(multipleDelivery)
+    }
+
+    interface Pengiriman{
+      +{abstract} tarifPengiriman(asal,tujuan,beratPengiriman)
+      +{abstract} requestPengiriman(noInvoice)
+    }
+
+@enduml

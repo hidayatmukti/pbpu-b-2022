@@ -16,6 +16,15 @@
      -noInvoice
      +tarifPengiriman(asal,tujuan,beratPengiriman)
      +requestPengiriman(noInvoice)
+     
+     class JNE{
+      -asal
+      -tujuan
+      -beratPengiriman
+      -noInvoice
+      +tarifPengiriman(asal,tujuan,beratPengiriman)
+      +requestPengiriman(noInvoice)
+    }
   }
 
 @enduml

@@ -25,6 +25,15 @@
       +tarifPengiriman(asal,tujuan,beratPengiriman)
       +requestPengiriman(noInvoice)
     }
+    
+    class Sicepat {
+      -asal
+      -tujuan
+      -beratPengiriman
+      -noInvoice
+      +tarifPengiriman(asal,tujuan,beratPengiriman)
+      +requestPengiriman(noInvoice)
+  }
   }
 
 @enduml

@@ -11,11 +11,9 @@
 ## Dosen Pengampu: Andri Santoso, S.kom., M.Sc.,
 
 ### Kasus :
---
 Buatlah sebuah UML Diagram mengenai alur kerja dari sistem antara e-commerce yang terintegrasi dengan ekspedisi dimana nantinya e-commerce dapat melihat tarif dan mengirim request untuk berbagai ekspedisi yang tersedia.
 
 ## Deklarasi Kelas
---
 
 ### eCommerece Class
 Terdapat Beberapa atribut dari kelas ini yakni :

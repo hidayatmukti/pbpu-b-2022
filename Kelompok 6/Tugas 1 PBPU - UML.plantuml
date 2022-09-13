@@ -10,7 +10,7 @@ siCepat <|.. pemilihanKurir
 class eCommerce{
     -userName : String
     -address : String
-    -ackages : barang
+    -packages : barang
     __
     +delivery(barang : pemilihanKurir)
 }

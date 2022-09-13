@@ -9,4 +9,13 @@
       +{abstract} requestPengiriman(noInvoice)
     }
 
+    class JNT {
+     -asal
+     -tujuan
+     -beratPengiriman
+     -noInvoice
+     +tarifPengiriman(asal,tujuan,beratPengiriman)
+     +requestPengiriman(noInvoice)
+  }
+
 @enduml

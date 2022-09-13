@@ -34,7 +34,11 @@
       -noInvoice
       +tarifPengiriman(asal,tujuan,beratPengiriman)
       +requestPengiriman(noInvoice)
-  }
-  
-
+    }
+    
+      Ecommerce --> Pengiriman 
+      Pengiriman <|.. JNE
+      Pengiriman <|.. JNT
+      Pengiriman <|.. Sicepat
+ 
 @enduml

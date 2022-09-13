@@ -1,7 +1,5 @@
 # PERANCANGAN UML MENGENAI SISTEM ANTARA ECOMMERCE SERTA EKSPEDISI PENGIRIMAN
 
-### Dosen Pengampu: Andri Santoso, S.kom., M.Sc.,
-
 #### Code UML :
 @startuml
 pemilihanKurir <-- eCommerce

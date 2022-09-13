@@ -1,19 +1,31 @@
-# Inisiasi Kelas Marketplace
-**Class Marketplace** 
+# Inisiasi Kelas Interface Ekspedisi
 
-Dalam class marketplace terdiri dari berbagai field diantaranya,
+Dalam kelas interface berisi method returnTarif, menerimaRequest yang digunakan sebagai API dari pilihan jasa ekspedisi
+
+_**Interface Ekspedisi**_ 
+
+| Method  | Visisbility 
+| ----- | --- |  
+| returnTarif   |Public  
+| menerimaRequest |Public 
+
+---
+
+# Inisiasi Kelas JNT
+**Class JNT** 
+
+Dalam class JNT terdiri dari berbagai field diantaranya,
 
 | Field  | DataType | Visibility
 | ----- | --- | --- | 
-| asalPengiriman   |String  |private
-| tujuanPengiriman |String   |private
-| jenisPengiriman   |String  |private
-| beratBarang |Int  |private
-| hargaProduk   |Int  |private
+| pilihanJasa  |String  |public
+| layananJasa |String   |public
 
-Dalam class marketplace tersebut juga memiliki Method diantaranya,
+kemudian dalam kelas JNT juga memiliki method sebagai berikut
 
-| Method  | Visisbility | Params
-| ----- | --- | --- | 
-| returnTarif   |Public  |beratbarang,asalPengiriman,tujuanPengiriman,ekspedisi
-| menerimaRequest |Public   |beratbarang,asalPengiriman,tujuanPengiriman,ekspedisi
+| Method  | Visisbility 
+| ----- | --- |  
+| returnTarif   |Public  
+| menerimaRequest |Public 
+
+---

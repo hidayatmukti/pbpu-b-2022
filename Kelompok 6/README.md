@@ -30,3 +30,6 @@ Terdapat juga method yang dipakai pada kelas ini, yakni :
 | --- | --- | -- |
 | delivery | barang : pemilihanKurir | public |
 
+## Penjelasan 
+Diagram UML yang telah dibuat mencerminkan alur kerja sistem E-Commerce yang terintegrasi dengan ekspedisi. Dalam kasus ini, Kelas E-Commerce memiliki ketergantungan terhadap kelas interface pemilihanKurir. Hal ini terjadi karena Kelas E-Commerce dibatasi hanya akan berinteraksi dengan objek kurir yang mengimplementasikan interface pemilihanKurir. Artinya, setiap packages atau barang pada kelas E-Commerce harus bisa dikirimkan oleh objek Kurir dengan mengimplementasikan method tarifPengiriman() dan juga requestPengiriman().
+

@@ -1,0 +1,44 @@
+@startuml
+
+    class  Ecommerce {
+      +support(multipleDelivery)
+    }
+
+    interface Pengiriman{
+      +{abstract} tarifPengiriman(asal,tujuan,beratPengiriman)
+      +{abstract} requestPengiriman(noInvoice)
+    }
+
+    class JNT {
+     -asal
+     -tujuan
+     -beratPengiriman
+     -noInvoice
+     +tarifPengiriman(asal,tujuan,beratPengiriman)
+     +requestPengiriman(noInvoice)
+     }
+     
+     class JNE{
+      -asal
+      -tujuan
+      -beratPengiriman
+      -noInvoice
+      +tarifPengiriman(asal,tujuan,beratPengiriman)
+      +requestPengiriman(noInvoice)
+    }
+    
+    class Sicepat {
+      -asal
+      -tujuan
+      -beratPengiriman
+      -noInvoice
+      +tarifPengiriman(asal,tujuan,beratPengiriman)
+      +requestPengiriman(noInvoice)
+    }
+    
+      Ecommerce --> Pengiriman 
+      Pengiriman <|.. JNE
+      Pengiriman <|.. JNT
+      Pengiriman <|.. Sicepat
+ 
+@enduml

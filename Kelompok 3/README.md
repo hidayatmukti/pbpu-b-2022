@@ -17,3 +17,11 @@ interface SupportMultipleDelivery {
  +tarifPengiriman(range, weight)
  +requestPengiriman(destination)
 }
+class JNE {
+ +tarifPengiriman(range, weight)
+ +requestPengiriman(destination)
+}
+class JNT {
+ +tarifPengiriman(range, weight)
+ +requestPengiriman(destination)
+}

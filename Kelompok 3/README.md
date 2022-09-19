@@ -25,3 +25,10 @@ class JNT {
  +tarifPengiriman(range, weight)
  +requestPengiriman(destination)
 }
+class SiCepat {
+ +tarifPengiriman(range, weight)
+ +requestPengiriman(destination)
+}
+
+@enduml
+</plantuml>

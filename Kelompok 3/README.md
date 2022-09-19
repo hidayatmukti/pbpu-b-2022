@@ -6,3 +6,7 @@ class Ecommerce {
  +price
  +method2(Application:supportMultipleDelivery)
 }
+interface SupportMultipleDelivery {
+ +tarifPengiriman(range, weight)
+ +requestPengiriman(destination)
+}
